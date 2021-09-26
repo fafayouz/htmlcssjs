@@ -1,0 +1,37 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container {
+    width: 100%;
+    height: 100vh;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Card-Product {
+    width: 26%;
+    height: 49%;
+    background-color: white;
+    border-radius: 0.4rem;
+    overflow: hidden;
+}
+.Card-Image {
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Card-Image img {
+    width: 100%;
+    height: 100%;
+}
